@@ -51,16 +51,30 @@ div{
 }
 .self-info{
     display: flex;
+    flex-flow: column;
+    width: 60rem;
+    font-size: 2rem;
+    margin: 1.5rem;
+    height: 30rem;
+    margin-top: 4rem;
 }
 .selfie{
     display: flex;
     width: 35rem;
     height: 25rem;
+    float: left;
+    border: 1px solid black;
+    margin: 3rem;
+    margin-top: 1rem;
 }
 .foot-soldier{
     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
-.part-1, .part-2{
+.part-1, .part-2, .part-3, .part-4{
     display: flex;
 }
 h1{
@@ -89,4 +103,29 @@ header{
     height: 30rem;
     margin: 1rem;
     border: 1px solid black;
+}
+.project-titles{
+    width: 30rem;
+    margin: 1.1rem;
+}
+.self{
+    border-bottom: 1px solid black;
+}
+.self-info button{
+    width: 15rem;
+    align-self: center;
+}
+.self-info h2{
+    text-align: center;
+}
+footer{
+    height: 20rem;
+    background-color: tan;
+}
+footer button{
+    height: 2rem;
+    width: 20rem;
+}
+h3{
+    font-size: 5rem;
 }
