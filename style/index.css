@@ -40,3 +40,53 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html{
+    font-size: 67.5%;
+}
+div{
+    font-size: 1.5rem;
+}
+.Pages{
+    display: flex;
+}
+.self-info{
+    display: flex;
+}
+.selfie{
+    display: flex;
+    width: 35rem;
+    height: 25rem;
+}
+.foot-soldier{
+    display: flex;
+}
+.part-1, .part-2{
+    display: flex;
+}
+h1{
+    font-size: 8rem;
+}
+.nav-button{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+    font-size: 1.5rem;
+}
+.current-tab{
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: dimgray;
+    font-size: 1.5rem;
+}
+header{
+    padding: 10px;
+    background-color: tan;
+    border-bottom: 1px solid black;
+}
+.pictures{
+    width: 30rem;
+    height: 30rem;
+    margin: 1rem;
+    border: 1px solid black
+}
