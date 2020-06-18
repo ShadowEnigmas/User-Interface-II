@@ -161,6 +161,9 @@ h3{
 
 /* 500-800 px size*/
 @media(max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
     header{
         display: flex;
         width: 100%;
@@ -168,6 +171,7 @@ h3{
         align-content: center;
         background-color: white;
         border: none;
+        margin: 0rem;
         margin-bottom: 2rem;
     }
     .Pages{
@@ -177,6 +181,7 @@ h3{
         justify-content: center;
         width: 100%;
         text-align: center;
+        margin: 0rem;
     }
     .Pages .navi{
         width: 15rem;
@@ -187,7 +192,8 @@ h3{
     }
     h1{
         font-size: 5rem;
-        text-align: center;   
+        text-align: center;
+        margin-bottom: 1rem; 
     }
     .self{
         display: flex;
@@ -197,6 +203,7 @@ h3{
         width: 100%;
         border: none;
         height: 45rem;
+        margin: 0rem;
     }
     .self .selfie{
         align-self: center;
@@ -207,6 +214,44 @@ h3{
         flex-flow: column wrap;
         width: 85%;
     }
+    .Projects-of-choice{
+        width: 100%;
+        margin: 0rem;
+    }
+    .part-1, .part-2{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        padding: 5%;
+        height: 60rem;
+        justify-content: space-evenly;
+    }
+    .pictures{
+        height: 40%;
+        width: 40%;
+        margin: 0rem;
+    }
+    .project-titles{
+        width: 40%;
+        text-align: center;
+        margin: 0rem;
+    }
+    .foot-soldier{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-flow: column wrap;
+        margin: 0rem;
+    }
+    .contact-me{
+        font-size: 3rem;
+        padding: 1rem;
+        background-color: rgb(0, 174, 255);
+        margin: 2rem;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
 
 }
 
