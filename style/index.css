@@ -252,6 +252,7 @@ h3{
         border-radius: 5px;
     }
 }
+/* 500 px or less*/
 @media(max-width: 500px){
     .pictures{
         height: 40%;
@@ -267,9 +268,3 @@ h3{
         justify-content: space-evenly;
     }
 }
-
-}
-
-
-
-/* 500 px or less*/
