@@ -223,11 +223,11 @@ h3{
         flex-flow: column wrap;
         width: 100%;
         padding: 5%;
-        height: 60rem;
+        height: 50rem;
         justify-content: space-evenly;
     }
     .pictures{
-        height: 40%;
+        height: 35%;
         width: 40%;
         margin: 0rem;
     }
@@ -251,7 +251,22 @@ h3{
         border: 1px solid black;
         border-radius: 5px;
     }
-
+}
+@media(max-width: 500px){
+    .pictures{
+        height: 40%;
+        width: 40%;
+        margin: 0rem;
+    }
+    .part-1, .part-2{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        padding: 5%;
+        height: 30rem;
+        justify-content: space-evenly;
+    }
+}
 
 }
 
